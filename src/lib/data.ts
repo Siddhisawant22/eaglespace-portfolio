@@ -12,7 +12,6 @@ import {
     SiKubernetes,
     SiFramer,
     SiGitlab,
-    SiDiscord,
 } from 'react-icons/si';
 
 import {
@@ -43,7 +42,6 @@ export const socialLinks = [
     { title: 'instagram', link: 'https://www.instagram.com/vishal_kadam_0407', icon: FaInstagram },
     { title: 'artstation', link: 'https://vishalkadam.artstation.com', icon: FaArtstation },
     { title: 'gumroad', link: 'https://vishalkadam.gumroad.com', icon: SiGumroad },
-    { title: 'discord', link: 'https://discordapp.com/users/824538163938066443', icon: SiDiscord },
 ] as const;
 
 export const educations = [
