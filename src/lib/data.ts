@@ -12,6 +12,7 @@ import {
     SiKubernetes,
     SiFramer,
     SiGitlab,
+    SiDiscord,
 } from 'react-icons/si';
 
 import {
@@ -42,6 +43,7 @@ export const socialLinks = [
     { title: 'instagram', link: 'https://www.instagram.com/vishal_kadam_0407', icon: FaInstagram },
     { title: 'artstation', link: 'https://vishalkadam.artstation.com', icon: FaArtstation },
     { title: 'gumroad', link: 'https://vishalkadam.gumroad.com', icon: SiGumroad },
+    { title: 'discord', link: 'https://discordapp.com/users/824538163938066443', icon: SiDiscord },
 ] as const;
 
 export const educations = [
@@ -136,14 +138,17 @@ export const skills = [
 ] as const;
 
 export const tags = [
-    { title: 'OpenSource', link: 'oss' },
+    { title: 'OpenSource', link: 'opensource' },
     { title: 'HTML', link: 'html' },
     { title: 'CSS', link: 'css' },
     { title: 'JavaScript', link: 'javascript' },
-    { title: 'TypeScript', link: 'typescript' },
     { title: 'Next.js', link: 'next.js' },
-    { title: 'React', link: 'react' },
-    { title: 'Python', link: 'tailwindcss' },
+    { title: 'Python', link: 'python' },
+    { title: 'shows', link: 'shows' },
+    { title: 'props', link: 'props' },
+    { title: 'Environment', link: 'environment' },
+    { title: 'MPCfilm', link: 'mpcfilm' },
+    { title: 'Dneg', link: 'dneg' },
 ];
 
 export const projects = [
@@ -155,10 +160,80 @@ export const projects = [
         tag: ['HTML', 'CSS', 'JavaScript'],
     },
     {
-        title: 'vops-workspace',
-        image: '/projects/vops-workspace.png',
-        link: 'https://vishops.vercel.app',
+        title: 'Artdev-portfolio',
+        image: '/projects/artdev-portfolio.png',
+        link: 'https://vishify.vercel.app',
+        sourceCode: 'https://github.com/vishalkadam7/artdev-portfolio',
+        tag: ['Next.js', 'React', 'JavaScript'],
+    },
+    {
+        title: 'Chip n Dale: Rescue Rangers',
+        image: '/shows/Chip-n-Dale-Rescue-Rangers.png',
+        link: null,
         sourceCode: null,
-        tag: ['HTML', 'CSS', 'JavaScript'],
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Dolittle',
+        image: '/shows/Dolittle.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Dumbo',
+        image: '/shows/Dumbo.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'The Call of the Wild',
+        image: '/shows/The-Call-of-the-Wild.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Godzilla vs Kong',
+        image: '/shows/Godzilla-vs-Kong.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'The Predator',
+        image: '/shows/The-Predator.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Shazam!',
+        image: '/shows/Shazam.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Shazam! Fury of the Gods',
+        image: '/shows/Shazam-Fury-of-the-Gods.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'Dneg', 'Environment', 'props'],
+    },
+    {
+        title: 'RRR',
+        image: '/shows/RRR.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
+    },
+    {
+        title: 'Justice League',
+        image: '/shows/Justice-League.png',
+        link: null,
+        sourceCode: null,
+        tag: ['shows', 'MPCfilm', 'Environment', 'props'],
     },
 ] as const;
