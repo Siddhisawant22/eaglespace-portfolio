@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaArtstation, FaYoutube, FaDocker } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaArtstation, FaYoutube, FaDocker, FaEye } from 'react-icons/fa';
 import {
     SiGumroad,
     SiAutodeskmaya,
@@ -12,6 +12,8 @@ import {
     SiKubernetes,
     SiFramer,
     SiGitlab,
+    SiAutodesk,
+    SiNuke,
 } from 'react-icons/si';
 
 import {
@@ -27,6 +29,8 @@ import {
     TbBrandVscode,
 } from 'react-icons/tb';
 import { SiPostgresql, SiPostman, SiLinux, SiShadcnui, SiPycharm, SiNextra } from 'react-icons/si';
+import { PiCirclesThreePlusFill } from 'react-icons/pi';
+
 import { title } from 'process';
 
 export const navItems = [
@@ -102,6 +106,11 @@ export const skills = [
             { title: 'Blender', icon: SiBlender },
             { title: 'Katana', icon: SiKatana },
             { title: 'Premiere Pro', icon: SiAdobepremierepro },
+            { title: 'Clarisse IFX', icon: PiCirclesThreePlusFill },
+            { title: '3DS Max', icon: SiAutodesk },
+            { title: 'Mudbox', icon: SiAutodesk },
+            { title: 'Nuke', icon: SiNuke },
+            { title: 'MeshLab', icon: FaEye },
         ],
     },
     {
@@ -143,8 +152,6 @@ export const tags = [
     { title: 'Next.js', link: 'next.js' },
     { title: 'Python', link: 'python' },
     { title: 'shows', link: 'shows' },
-    { title: 'props', link: 'props' },
-    { title: 'Environment', link: 'environment' },
     { title: 'MPCfilm', link: 'mpcfilm' },
     { title: 'Dneg', link: 'dneg' },
 ];
@@ -155,18 +162,18 @@ export const projects = [
         image: '/projects/vops-workspace.png',
         link: 'https://vishops.vercel.app',
         sourceCode: 'https://github.com/vishalkadam7/vops-workspace',
-        tag: ['HTML', 'CSS', 'JavaScript'],
+        tag: ['HTML', 'CSS', 'JavaScript', 'OpenSource'],
     },
     {
         title: 'Artdev-portfolio',
         image: '/projects/artdev-portfolio.png',
         link: 'https://vishify.vercel.app',
         sourceCode: 'https://github.com/vishalkadam7/artdev-portfolio',
-        tag: ['Next.js', 'React', 'JavaScript'],
+        tag: ['Next.js', 'React', 'JavaScript', 'OpenSource'],
     },
     {
-        title: 'Chip n Dale: Rescue Rangers',
-        image: '/shows/Chip-n-Dale-Rescue-Rangers.png',
+        title: 'Dumbo',
+        image: '/shows/Dumbo.png',
         link: null,
         sourceCode: null,
         tag: ['shows', 'MPCfilm', 'Environment', 'props'],
@@ -179,8 +186,8 @@ export const projects = [
         tag: ['shows', 'MPCfilm', 'Environment', 'props'],
     },
     {
-        title: 'Dumbo',
-        image: '/shows/Dumbo.png',
+        title: 'Chip n Dale: Rescue Rangers',
+        image: '/shows/Chip-n-Dale-Rescue-Rangers.png',
         link: null,
         sourceCode: null,
         tag: ['shows', 'MPCfilm', 'Environment', 'props'],

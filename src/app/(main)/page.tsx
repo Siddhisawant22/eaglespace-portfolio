@@ -25,7 +25,7 @@ export default function Home() {
                                 textAnchor='middle'
                                 className='text-2xl md:text-4xl xl:text-4xl text-center'
                             >
-                                3D Modelling Artist/Developer
+                                3D Modelling Artist/Dev
                             </text>
                         </svg>
                     </div>
@@ -90,7 +90,6 @@ export default function Home() {
                                 translateZ={20}
                                 as={Link}
                                 href={'/about'}
-                                target='__blank'
                                 className='px-4 py-2 rounded-xl text-xs font-normal dark:text-white'
                             >
                                 Hire Me →
