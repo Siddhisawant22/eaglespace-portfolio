@@ -48,6 +48,17 @@ export const socialLinks = [
     { title: 'gumroad', link: 'https://vishalkadam.gumroad.com', icon: SiGumroad },
 ] as const;
 
+export const embedLinks = [
+    {
+        title: 'showreel',
+        link: 'https://www.youtube.com/embed/B815Ue4bPxU?autoplay=1&loop=1&mute=1&controls=0',
+    },
+    {
+        title: 'demoreel',
+        link: 'https://www.youtube.com/embed/B815Ue4bPxU?autoplay=1&loop=1&mute=1&controls=0',
+    },
+] as const;
+
 export const educations = [
     { school: 'Nalanda Degree College (K.U.Warangal) | March / April 2014', courses: ['B.SC Computers'] },
     { school: 'Narayana Junior College | June - 2009 ', courses: ['Board of Intermediate Education (MPC)'] },

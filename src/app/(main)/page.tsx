@@ -6,6 +6,8 @@ import React from 'react';
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 
 import { Button } from '@/components/ui/button';
+import { ContainerScroll } from '@/components/ui/container-scroll-animation';
+import { embedLinks } from '@/lib/data';
 
 export const metadata: Metadata = {
     title: 'Home',
@@ -106,6 +108,20 @@ export default function Home() {
                     </CardBody>
                 </CardContainer>
             </div>
+            <div className="flex flex-col overflow-hidden">
+                <ContainerScroll
+                    titleComponent={
+                    <>
+                        <h1 className="text-4xl font-semibold text-black dark:text-white">
+                        3D Modeling (Environment & Props)<br />
+                        <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                        Show Reel !
+                        </span>
+                        </h1>
+                    </>
+                    }
+                />
+                </div>
         </section>
     );
 }
