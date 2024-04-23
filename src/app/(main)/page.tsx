@@ -40,13 +40,12 @@ export default function Home() {
 
                     <div className='flex justify-center items-center gap-4 mt-10'>
                         <Button
-                            variant={'outline'}
                             size={'lg'}
                             asChild
                         >
                             <Link href={'/about'}>About Me</Link>
                         </Button>
-                        <Button
+                        <Button variant={'outline'}
                             size={'lg'}
                             asChild
                         >
@@ -94,7 +93,7 @@ export default function Home() {
                                 href={'/about'}
                                 className='px-4 py-2 rounded-xl text-xs font-normal dark:text-white'
                             >
-                                Hire Me →
+                                Contact Me →
                             </CardItem>
                             <CardItem
                                 translateZ={20}
@@ -108,20 +107,19 @@ export default function Home() {
                     </CardBody>
                 </CardContainer>
             </div>
-            <div className="flex flex-col overflow-hidden">
+            <div className='flex flex-col overflow-hidden'>
                 <ContainerScroll
                     titleComponent={
-                    <>
-                        <h1 className="text-4xl font-semibold text-black dark:text-white">
-                        3D Modeling (Environment & Props)<br />
-                        <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                        Show Reel !
-                        </span>
-                        </h1>
-                    </>
+                        <>
+                            <h1 className='text-4xl font-semibold text-black dark:text-white'>
+                                3D Modeling (Environment & Props)
+                                <br />
+                                <span className='text-4xl md:text-[6rem] font-bold mt-1 leading-none'>Show Reel !</span>
+                            </h1>
+                        </>
                     }
                 />
-                </div>
+            </div>
         </section>
     );
 }

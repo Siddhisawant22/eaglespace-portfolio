@@ -16,28 +16,23 @@
         },
         "build": {
             "name": "build",
-            "command": "pnpm build",
-            "runAtStart": false
+            "command": "pnpm build"
         },
         "start": {
             "name": "start",
-            "command": "pnpm start",
-            "runAtStart": false
+            "command": "pnpm start"
         },
         "format": {
             "name": "format",
-            "command": "pnpm format",
-            "runAtStart": false
+            "command": "pnpm format"
         },
         "lint": {
             "name": "lint",
-            "command": "pnpm lint",
-            "runAtStart": false
+            "command": "pnpm lint"
         },
         "lint-staged": {
             "name": "lint-staged",
-            "command": "pnpm lint-staged",
-            "runAtStart": false
+            "command": "pnpm lint-staged"
         }
     }
 }

@@ -24,7 +24,7 @@ export default function Projects() {
                             src={project.image}
                             width={1920}
                             height={1080}
-                            className='w-full h-40 object-cover'
+                            className='w-full h-40 object-contain'
                             alt={project.title}
                         />
 

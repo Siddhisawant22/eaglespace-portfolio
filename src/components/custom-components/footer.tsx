@@ -7,6 +7,9 @@ export default function Footer() {
 
     return (
         <div className='w-full bg-foreground py-10 mt-10'>
+            <h1 className='text-background text-center select-none'>
+                <span className='font-bold'>Contact</span>
+            </h1>
             <ul className='container flex justify-center items-center gap-8 mx-auto p-8'>
                 {socialLinks.map(social => (
                     <li key={social.title}>
