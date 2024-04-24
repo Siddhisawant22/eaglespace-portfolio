@@ -45,7 +45,8 @@ export default function Home() {
                         >
                             <Link href={'/about'}>About Me</Link>
                         </Button>
-                        <Button variant={'outline'}
+                        <Button
+                            variant={'outline'}
                             size={'lg'}
                             asChild
                         >

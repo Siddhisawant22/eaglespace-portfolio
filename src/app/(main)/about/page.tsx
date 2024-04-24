@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
+import { AnimatedTooltip } from '@/components/ui/animated-tooltip';
 
-import { educations, experience, technicalQualifications } from '@/lib/data';
+import { educations, experience, technicalQualifications, people } from '@/lib/data';
 
 export const metadata: Metadata = {
     title: 'About',
@@ -14,6 +15,10 @@ export default function About() {
                     <h1 className='text-4xl font-bold text-center'>About Me</h1>
 
                     <div className='w-10/12 flex flex-col mx-auto mt-10'>
+                        <div className='flex flex-row items-center justify-center mb-10 w-full'>
+                            <AnimatedTooltip items={people} />
+                        </div>
+
                         <article className='text-lg text-justify'>
                             <p style={{ marginTop: '10px' }}>
                                 Technically skilled VFX artist with a background in IT and a passion for{' '}

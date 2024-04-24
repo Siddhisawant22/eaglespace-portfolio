@@ -14,6 +14,7 @@ import {
     SiGitlab,
     SiAutodesk,
     SiNuke,
+    SiDiscord,
 } from 'react-icons/si';
 
 import {
@@ -27,6 +28,7 @@ import {
     TbBrandPython,
     TbBrandGithub,
     TbBrandVscode,
+    TbMail,
 } from 'react-icons/tb';
 import { SiPostgresql, SiPostman, SiLinux, SiShadcnui, SiPycharm, SiNextra } from 'react-icons/si';
 import { PiCirclesThreePlusFill } from 'react-icons/pi';
@@ -39,13 +41,24 @@ export const navItems = [
     { title: 'Projects', link: '/projects' },
 ] as const;
 
+export const people = [
+    {
+        id: 1,
+        name: 'Vishal Kadam',
+        designation: 'vishalkadam472@gmail.com',
+        image: '/my-image.jpg',
+    },
+];
+
 export const socialLinks = [
+    { title: 'discord', link: 'https://discord.com/users/824538163938066443', icon: SiDiscord },
     { title: 'youtube', link: 'https://youtu.be/B815Ue4bPxU', icon: FaYoutube },
     { title: 'linkedIn', link: 'https://www.linkedin.com/in/vishal-kadam-9ba6a839', icon: FaLinkedin },
     { title: 'github', link: 'https://github.com/vishalkadam7', icon: FaGithub },
     { title: 'instagram', link: 'https://www.instagram.com/vishal_kadam_0407', icon: FaInstagram },
     { title: 'artstation', link: 'https://vishalkadam.artstation.com', icon: FaArtstation },
     { title: 'gumroad', link: 'https://vishalkadam.gumroad.com', icon: SiGumroad },
+    { title: 'mail', link: 'mailto:vishalkadam472@gmail.com', icon: TbMail },
 ] as const;
 
 export const embedLinks = [
