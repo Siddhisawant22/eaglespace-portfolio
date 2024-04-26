@@ -85,7 +85,7 @@ export const Card = ({ rotate, scale, translate }: { rotate: any; scale: any; tr
                     <iframe
                         width='100%'
                         height='100%'
-                        src={`https://www.youtube.com/embed/B815Ue4bPxU?autoplay=1&loop=1&mute=1&controls=1`}
+                        src={`https://www.youtube.com/embed/HDMj6wdLQ-4?autoplay=1&loop=1&mute=1&controls=1`}
                         allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                     ></iframe>
                 </motion.div>

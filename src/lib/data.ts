@@ -52,7 +52,7 @@ export const people = [
 
 export const socialLinks = [
     { title: 'discord', link: 'https://discord.com/users/824538163938066443', icon: SiDiscord },
-    { title: 'youtube', link: 'https://youtu.be/B815Ue4bPxU', icon: FaYoutube },
+    { title: 'youtube', link: 'https://youtu.be/HDMj6wdLQ-4', icon: FaYoutube },
     { title: 'linkedIn', link: 'https://www.linkedin.com/in/vishal-kadam-9ba6a839', icon: FaLinkedin },
     { title: 'github', link: 'https://github.com/vishalkadam7', icon: FaGithub },
     { title: 'instagram', link: 'https://www.instagram.com/vishal_kadam_0407', icon: FaInstagram },
@@ -64,11 +64,11 @@ export const socialLinks = [
 export const embedLinks = [
     {
         title: 'showreel',
-        link: 'https://www.youtube.com/embed/B815Ue4bPxU?autoplay=1&loop=1&mute=1&controls=0',
+        link: 'https://www.youtube.com/embed/HDMj6wdLQ-4?autoplay=1&loop=1&mute=1&controls=0',
     },
     {
         title: 'demoreel',
-        link: 'https://www.youtube.com/embed/B815Ue4bPxU?autoplay=1&loop=1&mute=1&controls=0',
+        link: 'https://www.youtube.com/embed/HDMj6wdLQ-4?autoplay=1&loop=1&mute=1&controls=0',
     },
 ] as const;
 
