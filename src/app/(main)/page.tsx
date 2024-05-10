@@ -27,15 +27,13 @@ export default function Home() {
                                 textAnchor='middle'
                                 className='text-2xl md:text-4xl xl:text-4xl text-center'
                             >
-                                3D Modelling Artist/Dev
+                                DIGITAL MARKETING - SEO,SMO
                             </text>
                         </svg>
                     </div>
 
                     <article className='text-center sm:text-md'>
-                        I&apos;m <span className='font-bold'>Vishal Kadam</span> A technically skilled artist educated
-                        in the technical field and experienced in the artistic field of 3D with specialization over
-                        Digital Assets Creation.
+                        I&apos;m <span className='font-bold'>Siddhika Sawant</span> Master SEO and SMO specialist. I optimize websites for search engines and social media to increase online visibility and engagement. Explore my portfolio to see my expertise in action.
                     </article>
 
                     <div className='flex justify-center items-center gap-4 mt-10'>
@@ -66,14 +64,14 @@ export default function Home() {
                             translateZ='50'
                             className='text-xl font-bold text-neutral-600 dark:text-white'
                         >
-                            3D Modelling Artist/Developer
+                            DIGITAL MARKETING - SEO,SMO
                         </CardItem>
                         <CardItem
                             as='p'
                             translateZ='60'
                             className='text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300'
                         >
-                            I&apos;m <span className='font-bold'>Vishal Kadam</span>
+                            I&apos;m <span className='font-bold'>Siddhika Sawant</span>
                         </CardItem>
                         <CardItem
                             translateZ='100'
@@ -108,19 +106,7 @@ export default function Home() {
                     </CardBody>
                 </CardContainer>
             </div>
-            <div className='flex flex-col overflow-hidden'>
-                <ContainerScroll
-                    titleComponent={
-                        <>
-                            <h1 className='text-4xl font-semibold text-black dark:text-white'>
-                                3D Modeling (Environment & Props)
-                                <br />
-                                <span className='text-4xl md:text-[6rem] font-bold mt-1 leading-none'>Show Reel !</span>
-                            </h1>
-                        </>
-                    }
-                />
-            </div>
+
         </section>
     );
 }

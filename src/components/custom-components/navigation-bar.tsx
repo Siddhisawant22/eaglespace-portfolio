@@ -30,8 +30,8 @@ export default function NavigationBar() {
                 /> */}
 
                 <span className='text-lg font-bold hover:text-teal-500 group cursor-pointer transition-all text-foreground hidden md:block'>
-                    Vishal Kadam{' '}
-                    <span className='text-teal-500 group-hover:text-foreground transition-all'>Artist/Dev</span>
+                    Siddhika Sawant{' '}
+                    <span className='text-teal-500 group-hover:text-foreground transition-all'>SEO-SMO</span>
                 </span>
             </Link>
 
